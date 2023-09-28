@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="images/logo.svg" rel="icon" type="image/svg+xml"/>
+    <title>Image Gallery</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <script defer src="js/main.js" type="module"></script>
+</head>
+<body>
+
+<!-- The navigation bar at the top of the page -->
+<nav class="navbar">
+    <h1>Image Gallery App</h1>
+</nav>
+
+<!-- The main content of the page -->
+<main class="main">
+
+    <!-- Tags -->
+    <div class="section--select-tags">
+        <button class="clear-selection">Clear Selection</button>
+    </div>
+
+    <!-- Image gallery -->
+    <div class="section--images hidden">
+    </div>
+    <div class="modal hidden">
+        <div class="image-container">
+            <span class="close-button">&times;</span>
+            <img class="modal-content">
+            <button class="download-button">Free Download</button>
+        </div>
+    </div>
+
+    <!-- Section displayed when no tags are selected -->
+    <div class="welcome-section hidden">
+        <div class="choose-category-prompt">Let's dive in! Choose a category to discover stunning images.</div>
+    </div>
+
+</main>
+</body>
+</html>
