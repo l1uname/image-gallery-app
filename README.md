@@ -1,7 +1,7 @@
 # Image Gallery
 
 This project is an image gallery that allows users to filter images based on tags. The gallery also includes a modal for
-viewing images in a larger format and a download button for each image.
+viewing images in a larger format, a download button for each image, and a feature for lazy loading of images.
 
 ## Features
 
@@ -9,6 +9,7 @@ viewing images in a larger format and a download button for each image.
 - View images in a larger format with a modal
 - Download images
 - Clear all selected tags with a single button
+- Lazy loading of images for improved performance
 
 ## Technologies Used
 
