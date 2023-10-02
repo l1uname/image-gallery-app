@@ -126,7 +126,7 @@ img[data-src]:hover {
     color: #fff;
     border: none;
     z-index: 10;
-    padding: 2px 10px;
+    padding: 2px 7px;
     border-radius: 3px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -138,11 +138,11 @@ img[data-src]:hover {
 
 .modal img {
     position: relative;
-    width: 80vw; /* 80% of the viewport width */
-    height: 80vh; /* 80% of the viewport height */
+    width: 80vw;
+    height: 80vh;
     object-fit: cover;
-    max-width: 500px; /* Maximum width */
-    max-height: 500px; /* Maximum height */
+    max-width: 500px;
+    max-height: 500px;
 }
 
 .image-container {
@@ -160,11 +160,11 @@ img[data-src]:hover {
     position: absolute;
     bottom: 20px;
     right: 10px;
-    font-size: 1em;
+    font-size: 0.9em;
     background: #28a745;
     color: white;
     border: none;
-    padding: 0.5vw 1vw;
+    padding: 0.2vw 0.5vw;
     border-radius: 5px;
     text-transform: uppercase;
     font-weight: bold;
