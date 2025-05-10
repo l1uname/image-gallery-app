@@ -1,6 +1,7 @@
 import tagSelection from "./components/tagSelection.js";
 import imageElement from "./components/imageElement.js"
 import {images} from "./utils/images.js";
+import '../css/styles.css';
 
 const sectionSelectTags = document.querySelector('.section--select-tags');
 const sectionImages = document.querySelector('.section--images');
