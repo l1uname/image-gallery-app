@@ -1,0 +1,23 @@
+{
+  "name": "image-gallery-app",
+  "version": "1.0.0",
+  "description": "This project is an image gallery that allows users to filter images based on tags. The gallery also includes a modal for viewing images in a larger format, a download button for each image, and a feature for lazy loading of images.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.99.7",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}
